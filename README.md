@@ -1,6 +1,8 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Assimilate Python for Rust
 
-## References
+## Day 1:  Setup a Rust and Python interaction
 
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+`cargo new hello`
+`cd hello`
+`cargo run -- --help`
+`cargo run -- marco --input "Marco"`
