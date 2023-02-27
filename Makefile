@@ -6,6 +6,8 @@ rust-version:
 	rustup --version			#rust toolchain manager
 	clippy-driver --version		#rust linter
 
+update:
+	rustup update stable
 format:
 	cargo fmt --quiet
 
