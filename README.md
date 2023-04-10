@@ -1,7 +1,22 @@
 # Assimilate Python for Rust
 
-## Day 3:
+## Day 5:  Next time figure out why hello world won't work!!!
 
+
+## Day 4:  Call Python from Rust
+
+Ran into issues call Python from Rust.  Need to debug
+
+```bash
+@noahgift ➜ /workspaces/assimilate-python-for-rust/callPy (main) $ cargo build -j 16
+   Compiling call_py v0.1.0 (/workspaces/assimilate-python-for-rust/callPy)
+error: linking with `cc` failed: exit status: 1
+  |
+  = note: "cc" "-m64" "/tmp/rustcTLYgtY/symbols.o"
+  ```
+
+
+## Day 3:
 
 A.  Ruff
 Got Rust linter working called `ruff` and have a sample project in pyruff-example.
